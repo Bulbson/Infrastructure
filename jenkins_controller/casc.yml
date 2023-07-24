@@ -3,7 +3,6 @@ jenkins:
     local:
       users:
         - id: "panda"
-          login: "panda"				
           password: "panda"
   authorizationStrategy:
     globalMatrix:

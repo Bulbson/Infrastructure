@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins-custom:latest
+    container_name: jenkins
+    ports:
+      - "8880:8080"
+      - "50000:50000"
+    volumes:
+      - /home/panda/Infrastructure/jenkins_controller/casc.yml:/usr/share/jenkins/ref/casc.yml:ro
+      - /home/panda/jenkins:/var/jenkins_home
