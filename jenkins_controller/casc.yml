@@ -76,12 +76,12 @@ tool:
               id: "4.7.0.2747"
   terraform:
     installations:
-    - name: "terraform"
-        properties:
+    - name: "Terraform"
+      properties:
       - installSource:
           installers:
           - terraformInstaller:
-              id: "30816-linux-amd64" 
+              id: "30816-linux-amd64"
 unclassified:
   location:
     url: "http://192.168.44.44:8880/"
