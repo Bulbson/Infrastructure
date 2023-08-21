@@ -21,7 +21,7 @@ jenkins:
       name: "agent"
       remoteFS: "/home/jenkins/agent"
       retentionStrategy: "always"
- 
+
 credentials:
   system:
     domainCredentials:
